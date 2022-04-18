@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 16 20:34:32 2022
+
+@author: Admin
+Nama : Favian Qintara Daffa
+NIM : 064002100014
+Prak 3 - Elkom 2
+
+"""
+
+class Vector:
+    
+    print("Nama : Favian Qintara Daffa")
+    print("NIM  : 064002100014")
+    print("Prak 3 - Elkom 2")
+    print("----------------------------")
+
+    count = 0
+
+    def __init__(self,k,g):
+        Vector.count+=1
+        self.k = k
+        self.g = g
+        print('Vektor',Vector.count,'=',k,' , ',g)
+
+v1 = Vector(3, 13)
+v2 = Vector(31, 23)
+print('Hasil V1 + V2 =',v1.k+v2.k,v1.g+v2.g)
